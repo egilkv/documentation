@@ -76,6 +76,7 @@ Don't panic! This is perfectly normal.
 * Make sure you've updated Raspbian (see above for steps)
 * Check the ribbon cable between your Pi and the LCD is properly seated
 * Make sure you have a SD card properly inserted into your Pi
+* If you have changed the GL settings (in raspi-config), they may not be compatible with your display. For instance "Full KMS" mode may not work with the 7" touch display. Return the setting to "Legacy" to rule this one out.
 
 ### My display is white
 
